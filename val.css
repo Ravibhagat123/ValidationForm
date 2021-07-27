@@ -1,0 +1,43 @@
+body
+{
+    
+    font-size: 22px;
+    background-image: url(https://bebs.org/wp-content/uploads/2019/05/form-background-1024x683.jpg);
+
+}
+ .form
+ {
+     margin: 10px 280px;
+    
+ }
+ .form label
+ {
+     color: blue;
+ }
+.container
+{
+    margin-left: 400px;
+    padding-top: 8px;
+    background-color: cadetblue;
+    
+    width: 750px;
+    height: 70vh;
+}
+.form span
+{
+    font-size: 18px;
+}
+h1
+{
+    text-align: center;
+    color: chartreuse;
+}
+button
+{
+    background-color: darkblue;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    color: yellow;
+    border-color:blue;
+}

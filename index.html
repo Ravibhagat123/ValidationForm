@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation of form</title>
+    <link rel="stylesheet" href="val.css">
+</head>
+<body>
+    <h1>Sign in form</h1>
+    <form onsubmit="return valid()" class="container">
+        <div class="form">
+           <label>username</label>
+           <div> <input type="text" id="username"> </div>
+           <span id="user"></span>
+        </div>
+        <div class="form">
+            <label>password</label>
+            <div> <input type="text" id="password"> </div>
+            <span id="pass"></span>
+         </div>
+         <div class="form">
+            <label>confirm password</label>
+            <div> <input type="text" id="cpassword"> </div>
+            <span id="cpass"></span>
+         </div>
+         <div class="form">
+            <label>Email</label>
+            <div> <input type="text" id="email"> </div>
+            <span id="eml"></span>
+         </div>
+         <div class="form">
+            <label>Phone</label>
+            <div> <input type="text" id="phone"> </div>
+            <span id="mobile"></span>
+         </div>
+         <div class="form">
+            <label>Pin no</label>
+            <div> <input type="text" id="pinno"> </div>
+            <span id="pin"></span>
+         </div>
+         <div class="form">
+            <button> submit</button>
+        </div>
+    </form>
+    <script src="val.js"></script>
+</body>
+</html>
